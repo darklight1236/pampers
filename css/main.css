@@ -1,0 +1,86 @@
+@font-face{
+	font-family: "Fanwood";
+	src:url(../fonts/fanwood-master/Fanwood Text Italic.otf);
+}
+@font-face {
+	font-family: "Eacologica";
+	src:url(../fonts/eacologica-round-slab/eacologica-round-slab-ffp.otf);
+}
+html {
+	font-family: "Fanwood", sans-serif;
+}
+header {
+	top:0;
+	position: fixed;
+	width: 100%;
+	left:0;
+	background-color: #19A89C;
+	overflow: hidden;
+}
+li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 10px;
+	color:white;
+	margin-left: 0;
+}
+li:hover {
+	cursor: pointer;
+	text-decoration: overline underline;
+
+}
+.nav_btn li:last-child {
+	margin-right: 0px;
+}
+.nav_btn{
+	width: auto;
+	top:0;
+	margin-top: 10px;
+	margin-left: 65%;
+	transform: translateX(-50%);
+}
+.nav_btn li {
+	display: inline;
+	margin-right: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+footer{
+	position: fixed;
+	width: 100%;
+	height: auto;
+	bottom: 0;
+	left:0;
+	color:white;
+	background-color: #19A89C; 
+	font-weight: initial;
+}
+.ft {
+	display: inline-flex;
+	width:auto;
+	height:30px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+.nav_men {
+	width: 100%;
+}
+.main_body {
+	height: auto;
+	width: auto;
+}
+main {
+	width: 100%;
+	height: 100%;
+
+}
+.logo {
+	position: absolute;
+	font-family: "Eacologica";
+	font-style: italic;
+	color: white;
+	font-size: 22px;
+	top: 50%;
+	left: 40%;
+	transform: translate(-40%, -50%);
+}
